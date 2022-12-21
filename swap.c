@@ -12,7 +12,7 @@ int main(void)
     int temp = x;
     x=y;
     y=temp;
-    printf("x is now %i\n", x);
+    printf("x is now %i\n", x*5);
     printf("y is now %i\n", y);
     printf("done\n");
 }
